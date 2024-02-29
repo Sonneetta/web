@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bashly.com - Профіль користувача</title>
+    <link rel="shortcut icon" href="shortcut.png">
+    <!-- Підключення Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Підключення власних стилів -->
+    <link rel="stylesheet" href="style.css">
+
+   
+</head>
+<body>
+    <div class="profile">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+            <!--logo -->
+            <a class="navbar-brand mr-auto" href="index.html">
+                <img class="logo" src="logo.png" alt="logo">
+            </a>
+           
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Саме меню -->
+            <div class="collapse navbar-collapse " id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about_us.html">Про нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Реєстрація</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="logout.html">Вхід</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">Профіль</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container_profile">
+            <h2>Профіль користувача</h2>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <th scope="row">Ім'я</th>
+                        <td>Михайліченко Софія</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Email</th>
+                        <td>*@example.com</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Стать</th>
+                        <td>Жіноча</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Дата народження</th>
+                        <td>29.11.2004</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container mt-4 mb-5">
+            <p class="log text-center">Ваші дані в безпеці</p>
+        </div>
+    </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
